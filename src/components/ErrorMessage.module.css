@@ -1,0 +1,16 @@
+.error-message-container {
+  padding-top: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.error-message {
+  padding: 1rem 1.5rem;
+  background: #ffcdd2;
+  border: solid transparent;
+  border-width: 0;
+  color: #b71c1c;
+  max-width: max-content;
+  border-radius: 4px;
+}

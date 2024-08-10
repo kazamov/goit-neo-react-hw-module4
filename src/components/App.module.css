@@ -1,6 +1,4 @@
 .app {
-  display: flex;
-  flex-direction: column;
-  gap: 1.5rem;
-  padding: 1rem;
+  display: block;
+  padding-bottom: 1rem;
 }
