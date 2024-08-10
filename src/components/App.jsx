@@ -21,11 +21,13 @@ function App() {
     searchQuery => {
       setPage(1);
       setQuery(searchQuery);
+      setImages([]);
+      setTotalPages(-1);
       if (searchQuery) {
         fetchImages(searchQuery, 1);
       }
     },
-    [fetchImages],
+    [fetchImages, setImages, setTotalPages],
   );
 
   const handleSearchError = useCallback(() => {
